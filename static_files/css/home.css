@@ -1,0 +1,136 @@
+body {
+  background-image: url("../img/down1.png");
+  height: 100%;
+  background-size: contain; /* makes img spread to its true size */
+}
+
+h1.nav-link-header {
+    position: relative;
+    align-items: center;
+}
+
+div.name-as-title-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1.name-as-title {
+  font-size: 13vw;
+  font-family: 'Baumans';
+  text-shadow: 2px 2px 20px #080808;
+  text-align: center;
+  float: left;
+}
+
+h3.name-as-title {
+  font-size: 8vw;
+  font-family: 'Baumans';
+  text-shadow: 5px 5px 20px #080808;
+  text-align: center;
+  float: left;
+  margin-top: 1.5%;
+}
+
+div.home-content-section {
+  width: 75%;
+  text-align: center;
+  margin-right: 5%
+  float: left;
+}
+
+p.home-content {
+  font-size: 3.5vw;
+  font-family: 'Amaranth';
+  width: auto;
+  margin-left: 5%
+}
+
+img.home-pic {
+  width: 25%;
+  height: 45%;
+}
+
+div.home-pic-section {
+  justify-content: left;
+  margin-left: 5%;
+  float: left;
+  padding: 0px;
+}
+
+div.hold-homepic-and-content {
+  display: flex;
+  margin-left: 5%;
+}
+
+div.page-title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.page-title h1 {
+  font-size: 8vw;
+  font-family: 'Baumans';
+  color: rgba(255,255,255,.5);
+  background-color: #343a40;
+  padding: 5px;
+  display: inline-block;
+}
+
+/*********************** specific to about me section **************************/
+p.aboutme-description {
+  font-family: 'Amaranth';
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+/************************ specific to projects section *************************/
+p.project-description {
+  font-size: 2vw;
+  font-family: 'Amaranth';
+  width: auto;
+  margin-left: 5%
+  float: left;
+}
+
+div.project-list {
+  float: left;
+}
+
+h3.project-subtitle {
+  float: left;
+}
+
+div.project-item {
+  float: left;
+  width: 40%;
+  margin-left: 8%;
+}
+
+/************************ specific to contact me section ***********************/
+div.contactme-content {
+  justify-content: center;
+  display: flex;
+}
+
+.contactme-content img {
+  height: 40%;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.contactme-content h5 {
+  float: left;
+  margin-left: 3%;
+}
+
+.contactme-content p {
+  float: left;
+  width: auto;
+}
+
+hr {
+  width: 75%;
+  color: black;
+}

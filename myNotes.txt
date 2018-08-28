@@ -1,0 +1,40 @@
+Process
+______________________
+1. Made the js file to be able to run the server
+  a) serve the files you will be using
+     -link for help: http://expressjs.com/en/starter/static-files.html
+  b) import any libraries you will be using through the git terminal
+    ex: express --> "npm install express", i'm using express because it's
+    supposed to be a framework based on Node.js for building web Application
+    using principles and approaches of Node.js.
+  c) try it out "node server.js" or "nodemon server.js"
+
+2. Probably should have done this first, but make a package.json file (can get
+   the default done with "npm init -y" or make your own with "npm init" and this
+   will ask you individually for each section).
+   -link for help: https://docs.npmjs.com/getting-started/using-a-package.json
+
+***Getting started with bootstrap:
+  -link: https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+3. Added a nav bar using w3 schools and official bootstrap page.
+   -help: https://getbootstrap.com/docs/4.1/components/navbar/#color-schemes
+   -help: https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items
+   -additional help: https://www.codeply.com/go/qhaBrcWp3v
+      -my nav bar comes from this link and I changed it so that there's only
+      two sections, the left and the right. Basically, I took out the first
+      section which instead of getting rid of the right section it moved the
+      middle over to the right.
+
+4. Added the background picture of the entire webpage.
+    -linked a css page to it and set the picture through that.
+    -link to help: https://www.w3schools.com/css/css_background.asp
+
+5. Made links to specific parts of the page for nav bar options.
+    -link for help: https://blog.hubspot.com/marketing/jump-link-same-page
+
+6. Placed my name at top center of page.
+   -helped to put it at center: https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page#
+   -helped in resizing font based on browser: https://stackoverflow.com/questions/20304472/how-to-make-the-font-size-smaller-when-i-resize-the-browser
+
+   
