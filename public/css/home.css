@@ -1,7 +1,8 @@
 body {
   background-image: url("../img/down1.png");
   height: 100%;
-  background-size: contain; /* makes img spread to its true size */
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1.nav-link-header {
@@ -16,7 +17,7 @@ div.name-as-title-section {
 }
 
 h1.name-as-title {
-  font-size: 13vw;
+  font-size: 9vw;
   font-family: 'Baumans';
   text-shadow: 2px 2px 20px #080808;
   text-align: center;
@@ -24,7 +25,7 @@ h1.name-as-title {
 }
 
 h3.name-as-title {
-  font-size: 8vw;
+  font-size: 6vw;
   font-family: 'Baumans';
   text-shadow: 5px 5px 20px #080808;
   text-align: center;
@@ -32,36 +33,35 @@ h3.name-as-title {
   margin-top: 1.5%;
 }
 
-div.home-content-section {
-  width: 75%;
-  text-align: center;
-  margin-right: 5%
-  float: left;
-}
-
 p.home-content {
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   font-family: 'Amaranth';
   width: auto;
-  margin-left: 5%
+  margin-left: 5%;
+  vertical-align: middle;
 }
 
 img.home-pic {
-  width: 25%;
-  height: 45%;
+  width: 200px;
+  height: 300px;
+  position: relative;
+
 }
 
-div.home-pic-section {
-  justify-content: left;
-  margin-left: 5%;
-  float: left;
-  padding: 0px;
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
 
 div.hold-homepic-and-content {
   display: flex;
-  margin-left: 5%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
+
+/********************** page titles ********************************************/
 
 div.page-title {
   align-items: center;
