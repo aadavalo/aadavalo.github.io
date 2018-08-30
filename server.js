@@ -3,8 +3,8 @@ const express = require('express');
 const port = express();
 
 /* serve the static files */
-port.use(express.static('static_files/'));
-port.use(express.static('static_files/html/'));
+port.use(express.static('public/'));
+port.use(express.static('index.html'));
 
 /* starts the server */
 port.listen(3000, () => {
