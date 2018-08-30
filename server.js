@@ -4,7 +4,7 @@ const port = express();
 
 /* serve the static files */
 port.use(express.static('static_files/'));
-port.use(express.static('static_files/html/')); /* from what i think i know we don't need this --> i think i do actually */
+port.use(express.static('static_files/html/'));
 
 /* starts the server */
 port.listen(3000, () => {
