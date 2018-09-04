@@ -42,8 +42,8 @@ p.home-content {
   text-align: center;
 }
 
-img.home-pic {      /* supposed to be same features as the boostrap responsive img but it screws up my img, so im not currently using it */
-  max-width: 100%;
+div.hold-homepic-and-content img {      /* supposed to be same features as the boostrap responsive img but it screws up my img, so im not currently using it */
+  width: 45%;
   display: block;
   height: auto;
 }
@@ -56,10 +56,12 @@ img.home-pic {      /* supposed to be same features as the boostrap responsive i
 div.hold-homepic-and-content {
   display: flex;
   width: 70%;
+  height: auto;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  overflow: visible;
 }
 
 /********************** page titles ********************************************/
@@ -155,4 +157,9 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/******************* ALL body ******************************************************************/
+div.all-body {
+  overflow: auto;
 }

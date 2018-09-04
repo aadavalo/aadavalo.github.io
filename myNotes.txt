@@ -37,4 +37,17 @@ ______________________
    -helped to put it at center: https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page#
    -helped in resizing font based on browser: https://stackoverflow.com/questions/20304472/how-to-make-the-font-size-smaller-when-i-resize-the-browser
 
-   
+7. Got rid of all the <br/> tags and fixed the spacing with the property padding.
+   I did it mainly for the page titles since they're mainly the only ones that mark
+   the different sections. Also, I added the clear property to the page titles, which
+   helped in making them have their own line (whatever would show up right next
+   to it now shows up below it).
+   -margin link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+   -another for margin: https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css#
+   -clear link: https://developer.mozilla.org/en-US/docs/Web/CSS/clear
+
+8. Changed the hr tag, got a style from online.
+    -link: https://css-tricks.com/examples/hrs/
+
+9. Haven't done it but can make the picture change based on the current width.
+   -link: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_picture
