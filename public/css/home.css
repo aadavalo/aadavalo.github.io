@@ -39,23 +39,24 @@ p.home-content {
   width: auto;
   margin-left: 5%;
   vertical-align: middle;
+  text-align: center;
 }
 
-img.home-pic {
-  width: 200px;
-  height: 300px;
-  position: relative;
-
+img.home-pic {      /* supposed to be same features as the boostrap responsive img but it screws up my img, so im not currently using it */
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
-.responsive {
+/* .responsive {
     max-width: 100%;
     height: auto;
-}
+} */
 
 div.hold-homepic-and-content {
   display: flex;
   width: 70%;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -67,6 +68,9 @@ div.page-title {
   align-items: center;
   display: flex;
   justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  clear: both;
 }
 
 .page-title h1 {
@@ -81,25 +85,33 @@ div.page-title {
 /*********************** specific to about me section **************************/
 p.aboutme-description {
   font-family: 'Amaranth';
-  margin-left: 5%;
-  margin-right: 3%;
+  font-size: 1.5vw;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /************************ specific to projects section *************************/
-p.project-description {
-  font-size: 2vw;
+p.project-item-description {
+  font-size: 1.5vw;
   font-family: 'Amaranth';
   width: auto;
   margin-left: 5%
   float: left;
+  text-align: center;
+  margin-top: 5%;
 }
 
 div.project-list {
-  float: left;
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  margin: auto;
 }
 
 h3.project-subtitle {
-  float: left;
+  text-align: center;
 }
 
 div.project-item {
@@ -108,6 +120,12 @@ div.project-item {
   margin-left: 8%;
 }
 
+img.project-item-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
 /************************ specific to contact me section ***********************/
 div.contactme-content {
   justify-content: center;
@@ -115,9 +133,9 @@ div.contactme-content {
 }
 
 .contactme-content img {
-  height: 40%;
-  width: 40%;
-  margin-left: 5%;
+  height: 30%;
+  width: 30%;
+  margin-left: 3%;
 }
 
 .contactme-content h5 {
@@ -131,6 +149,10 @@ div.contactme-content {
 }
 
 hr {
-  width: 75%;
+  /* width: 75%;
   color: black;
+  line-height: 5px; */
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
