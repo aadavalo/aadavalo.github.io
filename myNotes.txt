@@ -52,4 +52,4 @@ ______________________
 9. Haven't done it but can make the picture change based on the current width.
    -link: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_picture
 
-10. fixed 
+10. fix
