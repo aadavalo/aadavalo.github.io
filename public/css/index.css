@@ -43,7 +43,7 @@ p.home-content {
 }
 
 div.hold-homepic-and-content img {      /* supposed to be same features as the boostrap responsive img but it screws up my img, so im not currently using it */
-  width: 45%;
+  width: 20%;
   display: block;
   height: auto;
 }
@@ -62,6 +62,7 @@ div.hold-homepic-and-content {
   margin-right: auto;
   position: relative;
   overflow: visible;
+  padding-bottom: 10%;
 }
 
 /********************** page titles ********************************************/
@@ -70,13 +71,13 @@ div.page-title {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-top: 15%;
+  padding-top: 5%;
   padding-bottom: 5%;
   clear: both;
 }
 
 .page-title h1 {
-  font-size: 8vw;
+  font-size: 6vw;
   font-family: 'Baumans';
   color: rgba(255,255,255,.5);
   background-color: #343a40;
@@ -84,7 +85,7 @@ div.page-title {
   display: inline-block;
 }
 
-/*********************** specific to about me section **************************/
+/*********************** about me section **************************/
 p.aboutme-description {
   font-family: 'Amaranth';
   font-size: 1.5vw;
@@ -94,7 +95,35 @@ p.aboutme-description {
   margin-right: auto;
 }
 
-/************************ specific to projects section *************************/
+div.aboutme-section {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.vendimia-pic {
+  width: 15%;
+  height: auto;
+  position: relative;
+  margin-left: 10%;
+  margin-top: -10%;
+}
+
+.aboutme-description-a {
+  position: relative;
+  width: 50%;
+  margin-left: 22%;
+  margin-top: -5%;
+}
+
+.aboutme-description-b {
+  position: relative;
+  width: 45%;
+  margin-left: 55%;
+}
+
+/************************ projects section *************************/
 p.project-item-description {
   font-size: 1.5vw;
   font-family: 'Amaranth';
@@ -105,15 +134,22 @@ p.project-item-description {
   margin-top: 5%;
 }
 
+div.projects_section {
+  padding-bottom: 5%;
+  overflow: auto;
+}
+
 div.project-list {
   width: 80%;
   justify-content: center;
   display: flex;
   margin: auto;
+  padding-bottom: 5%;
 }
 
 h3.project-subtitle {
   text-align: center;
+  font-size: 1.5em;
 }
 
 div.project-item {
@@ -122,13 +158,31 @@ div.project-item {
   margin-left: 8%;
 }
 
-img.project-item-image {
-  max-width: 100%;
-  height: auto;
+.project-item-image {
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#bustle-pic {
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
 
 
-/************************ specific to contact me section ***********************/
+/************************ contact me section ***********************/
+.contactme_section {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 div.contactme-content {
   justify-content: center;
   display: flex;
@@ -151,9 +205,6 @@ div.contactme-content {
 }
 
 hr {
-  /* width: 75%;
-  color: black;
-  line-height: 5px; */
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
